@@ -4,7 +4,7 @@
     {
       "Effect": "Allow",
       "Principal": {
-        "Service": "eks-fargate.amazonaws.com"
+        "Service": "eks-fargate-pods.amazonaws.com"
       },
       "Action": "sts:AssumeRole"
     }
