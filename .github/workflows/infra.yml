@@ -24,7 +24,7 @@ jobs:
         uses: hashicorp/setup-terraform@v2
 
       - name: Terraform Init
-        run: terraform init -backend-config="bucket=mikes-terraform-state" -backend-config="key=mikes-cluster.tfstate" -backend-config="region=us-east-2" -backend-config="encrypt=true"
+        run: terraform init
 
       - name: Terraform Plan
         run: terraform plan
